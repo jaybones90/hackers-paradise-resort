@@ -1,10 +1,36 @@
-html {font-family: monospace;
+html {font-family: 'Source Code Pro', monospace;
 }
 a {
   color: inherit;
 }
 #homepage-background {
   background-image: url(https://images.vice.com/vice/images/content-images/2016/11/16/watch-dogs-2-embraces-san-franciscos-long-weird-history-as-a-hackers-paradise-body-image-1479263922.jpg);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: fixed;
+  z-index: -1;
+}
+
+#contact-background {
+  background-image: url(https://thumb1.shutterstock.com/display_pic_with_logo/67766/234226834/stock-photo-computer-geek-with-computer-keyboard-234226834.jpg);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: fixed;
+  z-index: -1;
+}
+
+#pics-background {
+  background-image: url(https://cdn.meme.am/cache/images/folder903/600x600/15262903.jpg);
   background-size: cover;
   height: 100%;
   width: 100%;
@@ -29,6 +55,46 @@ a {
   z-index: -1;
 }
 
+#activities-background {
+  background-image: url(http://d.ibtimes.co.uk/en/full/1484068/hacker-network.jpg);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: fixed;
+  z-index: -1;
+}
+
+
+#travel-background {
+  background-image: url(http://i3.mirror.co.uk/incoming/article7017480.ece/ALTERNATES/s615/Satellite-Hacker-main.jpg);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: fixed;
+  z-index: -1;
+}
+
+
+/* The animation code */
+@keyframes blink {
+    from {color: white;}
+    to {color: black;}
+}
+#large-text {
+  font-size: 60px;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-iteration-count:infinite;
+}
+
 
 
 #content {
@@ -41,6 +107,32 @@ a {
   margin: auto;
   margin-top: 20px;
   color: white;
+}
+
+#hack-content {
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  padding: 5px;
+  width: 94%;
+  max-width: 800px;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  color: black;
+}
+
+#image-grid {
+  margin: auto;
+  margin-top: 200px;
+  width: 94%;
+  max-width: 800px;
+  text-align: justify;
+  vertical-align: baseline;
+}
+
+#image-grid img {
+  width: 20%;
+  margin-bottom: 30px;
 }
 
 h1 {font-size: 35px;
