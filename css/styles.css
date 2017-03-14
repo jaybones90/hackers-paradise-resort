@@ -15,6 +15,22 @@ a {
   position: fixed;
   z-index: -1;
 }
+
+#accommodations-background {
+  background-image: url(https://i0.wp.com/farm8.staticflickr.com/7682/17030823099_89f7329aa6_z.jpg?resize=640%2C426&ssl=1);
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  position: fixed;
+  z-index: -1;
+}
+
+
+
 #content {
   background-color: rgba(0, 199, 244, 0.8);
   text-align: center;
