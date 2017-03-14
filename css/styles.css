@@ -1,3 +1,8 @@
+html {font-family: monospace;
+}
+a {
+  color: inherit;
+}
 #homepage-background {
   background-image: url(https://images.vice.com/vice/images/content-images/2016/11/16/watch-dogs-2-embraces-san-franciscos-long-weird-history-as-a-hackers-paradise-body-image-1479263922.jpg);
   background-size: cover;
@@ -20,10 +25,30 @@
   margin: auto;
   margin-top: 20px;
   color: white;
-  font-family: monospace;
 }
 
 h1 {font-size: 35px;
 }
 h2, h3 {font-size: 20px;
+}
+
+#bottom-nav {background-color: rgba(0,199,244,1);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#nav-list {
+  list-style: none;
+}
+#nav-list li {
+  display: inline-block;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: white;
+  font-size: 25px;
 }
